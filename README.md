@@ -1,5 +1,7 @@
 # ALGORITMOS
-David Alejandro Martinez Pinzon
-Laura Valentina Rangel Munevar
-Luna Alejandra Sanabria Aponte
-Miguel Felipe Beltran Vargas 
+1.David Alejandro Martinez Pinzon
+2.Laura Valentina Rangel Munevar
+3.Luna Alejandra Sanabria Aponte
+4.Miguel Felipe Beltran Vargas 
+
+//Hagan el trabajo antes del domingo
