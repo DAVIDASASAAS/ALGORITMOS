@@ -1,6 +1,6 @@
 // Luna Sanabria 
 import java.util.Scanner;
-public class meotodo_3 {
+public class metodo_3 {
 
     // Método para sumar dos números
     public static int metodo_3(int a, int b) {
