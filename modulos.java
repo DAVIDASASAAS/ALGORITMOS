@@ -1,30 +1,47 @@
 import java.util.Scanner;
-public class modulos {
-//AQUI VAMOS A GENREAR TODOS LOS MODULOS CORRESPODIENTES
 
-//ASIGNACIONES
-    //DAVID:
-    //VALENTINA:
-        //(Luna Sanabria) 3.Método para sumar dos números 
-    public static int metodo_3(int a, int b) {
-        return a + b;
+public class Main {
+
+    // Método que saluda al usuario
+    public static void saludar() {
+        System.out.println("Hola, bienvenido al programa.");
     }
 
-    public static void main(String[] args) {
-
+    // Método que pide dos números enteros
+    public static int[] pedirNumeros() {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Ingrese el primer número: ");
-        int num1 = sc.nextInt();
+        int a = sc.nextInt();
 
         System.out.print("Ingrese el segundo número: ");
-        int num2 = sc.nextInt();
+        int b = sc.nextInt();
 
-        int suma = metodo_3(num1, num2);
+        return new int[]{a, b};
+    }
 
-        System.out.println("La suma es: " + suma);
+    // Método que suma dos números positivos
+    public static int sumar(int a, int b) {
+        return a + b;
+    }
+
+    // Método principal
+    public static void main(String[] args) {
+
+        // Llamar al método saludo
+        saludar();
+
+        // Pedir números
+        int[] numeros = pedirNumeros();
+
+        // Guardar números
+        int a = numeros[0];
+        int b = numeros[1];
+
+        // Sumar números
+        int resultado = sumar(a, b);
+
+        // Mostrar resultado
+        System.out.println("La suma es: " + resultado);
     }
 }
-
-    //MIGUEL:
-    
