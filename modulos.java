@@ -1,10 +1,11 @@
-//AQUI VAMOS A GENREAR TODOS LOS MODULOS CORRESPODIENTES
 import java.util.Scanner;
 public class modulos {
+//AQUI VAMOS A GENREAR TODOS LOS MODULOS CORRESPODIENTES
+
 //ASIGNACIONES
     //DAVID:
     //VALENTINA:
-    //3.Método para sumar dos números (Luna Sanabria)
+        //(Luna Sanabria) 3.Método para sumar dos números 
     public static int metodo_3(int a, int b) {
         return a + b;
     }
@@ -24,5 +25,6 @@ public class modulos {
         System.out.println("La suma es: " + suma);
     }
 }
+
     //MIGUEL:
     
